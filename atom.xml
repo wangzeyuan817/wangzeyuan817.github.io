@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-01T12:59:11.275Z</updated>
+  <updated>2020-04-05T14:47:32.742Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/04/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     <id>http://yoursite.com/2020/04/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</id>
     <published>2020-04-01T12:47:22.000Z</published>
-    <updated>2020-04-01T12:59:11.275Z</updated>
+    <updated>2020-04-05T14:47:32.742Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,8 @@
       
         
         
-          &lt;h2 id=&quot;第一步&quot;&gt;&lt;a href=&quot;#第一步&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;第一步：基本配置&quot;&gt;&lt;a href=&quot;#第一步：基本配置&quot; class=&quot;headerlink&quot; title=&quot;第一步：基本配置&quot;&gt;&lt;/a&gt;第一步：基本配置&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下载Git默认配置&lt;br&gt; 下载链接如下：&lt;a
         
       
     

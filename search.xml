@@ -3,10 +3,22 @@
   <entry>
     <title>搭建博客教程</title>
     <url>/2020/04/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><ol>
-<li>下载Git默认配置<br>下载链接如下：</li>
-<li>下载node.js默认配置</li>
-<li>略，，，以后再写</li>
+    <content><![CDATA[<h2 id="第一步：基本配置"><a href="#第一步：基本配置" class="headerlink" title="第一步：基本配置"></a>第一步：基本配置</h2><ol>
+<li><p>下载Git默认配置<br> 下载链接如下：<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a></p>
+</li>
+<li><p>下载node.js默认配置</p>
+<p>  下载连接如下：<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a></p>
+</li>
+<li><p>注册Github：(本教程主要讲解搭建博客过程，Github注册和使用后期更新)</p>
+<p>  参考链接：<a href="https://blog.csdn.net/weixin_42693104/article/details/82584849" target="_blank" rel="noopener">https://blog.csdn.net/weixin_42693104/article/details/82584849</a></p>
+</li>
+</ol>
+<h2 id="第二步：hexo注册"><a href="#第二步：hexo注册" class="headerlink" title="第二步：hexo注册"></a>第二步：hexo注册</h2><ol>
+<li><p>到hexo官网(链接：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a>)</p>
+<p>如图：<img src="file:///C:%5CUsers%5C22477%5CAppData%5CRoaming%5CTencent%5CUsers%5C2247719709%5CQQ%5CWinTemp%5CRichOle%5C13$_J9Q%7BU7KBS5JYF" alt="img">)AOXXN.png)</p>
+</li>
+<li><p>在你的电脑上创建一个文件夹，可以命名为blog</p>
+</li>
 </ol>
 ]]></content>
   </entry>

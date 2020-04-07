@@ -65,7 +65,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">29字</span>
+            <span class="post-count">119字</span>
         </span>
     </span>
 
@@ -99,10 +99,22 @@
       
 
       
-      <h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><ol>
-<li>下载Git默认配置<br>下载链接如下：</li>
-<li>下载node.js默认配置</li>
-<li>略，，，以后再写</li>
+      <h2 id="第一步：基本配置"><a href="#第一步：基本配置" class="headerlink" title="第一步：基本配置"></a>第一步：基本配置</h2><ol>
+<li><p>下载Git默认配置<br> 下载链接如下：<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a></p>
+</li>
+<li><p>下载node.js默认配置</p>
+<p>  下载连接如下：<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a></p>
+</li>
+<li><p>注册Github：(本教程主要讲解搭建博客过程，Github注册和使用后期更新)</p>
+<p>  参考链接：<a href="https://blog.csdn.net/weixin_42693104/article/details/82584849" target="_blank" rel="noopener">https://blog.csdn.net/weixin_42693104/article/details/82584849</a></p>
+</li>
+</ol>
+<h2 id="第二步：hexo注册"><a href="#第二步：hexo注册" class="headerlink" title="第二步：hexo注册"></a>第二步：hexo注册</h2><ol>
+<li><p>到hexo官网(链接：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a>)</p>
+<p>如图：<img src="file:///C:%5CUsers%5C22477%5CAppData%5CRoaming%5CTencent%5CUsers%5C2247719709%5CQQ%5CWinTemp%5CRichOle%5C13$_J9Q%7BU7KBS5JYF" alt="img">)AOXXN.png)</p>
+</li>
+<li><p>在你的电脑上创建一个文件夹，可以命名为blog</p>
+</li>
 </ol>
 
       
@@ -191,61 +203,35 @@
   
 
   
+
   
-<!-- valine评论 -->
-<div id="vcomments-box">
-    <div id="vcomments">
-    </div>
-</div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
-<script>
-    new Valine({
-        el: '#vcomments',
-        app_id: '',
-        app_key: '',
-        path: window.location.pathname,
-        notify: 'false',
-        verify: 'false',
-        avatar: 'mp',
-        placeholder: '给我的文章加点评论吧~',
-        recordIP: true
-    });
-    const infoEle = document.querySelector('#vcomments .info');
-    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
-        infoEle.childNodes.forEach(function (item) {
-            item.parentNode.removeChild(item);
-        });
-    }
+  
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: 'f6191fec8d9844b2f228',
+    clientSecret: '3b9c23a16b071491f34f7afee03e4f1ce42eb95c',
+    repo: 'wangzeyuan817.github.io',
+    owner: 'wangzeyuan817',
+    admin: ['wangzeyuan817'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
 </script>
-<style>
-    #vcomments-box {
-        padding: 5px 30px;
-    }
 
-    @media screen and (max-width: 800px) {
-        #vcomments-box {
-            padding: 5px 0px;
-        }
-    }
-
-    #vcomments-box #vcomments {
-        background-color: #fff;
-    }
-
-    .v .vlist .vcard .vh {
-        padding-right: 20px;
-    }
-
-    .v .vlist .vcard {
-        padding-left: 10px;
-    }
-</style>
-
-  
-
-  
-  
   
 
 </article>
@@ -398,7 +384,7 @@
 <script>
   try {
     var typed = new Typed("#subtitle", {
-      strings: ['好奇之心，改变之力', '努力，勤奋，实干，梦想', ''],
+      strings: ['好奇之心，改变之力', '努力，勤奋，实干，梦想', '想要的都拥有，得不到的都释怀'],
       startDelay: 0,
       typeSpeed: 150,
       loop: true,
