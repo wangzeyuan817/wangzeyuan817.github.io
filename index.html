@@ -82,6 +82,182 @@
     
     
     
+    <article id="post-前端入门教程之HTML" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/04/13/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E4%B9%8BHTML/"
+    >前端入门教程之HTML</a> 
+</h2>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/04/13/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E4%B9%8BHTML/" class="article-date">
+  <time datetime="2020-04-13T07:42:58.919Z" itemprop="datePublished">2020-04-13</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h1 id="前端入门教程之HTML"><a href="#前端入门教程之HTML" class="headerlink" title="前端入门教程之HTML"></a>前端入门教程之HTML</h1><h2 id="HTML配置准备"><a href="#HTML配置准备" class="headerlink" title="HTML配置准备"></a>HTML配置准备</h2><ul>
+<li><p>介绍：英文全称 Hyper Text Marked Language ，即超文本标记语言，是一种标识性的语言。它包括一系列标签．通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体。HTML文本是由HTML命令组成的描述性文本，HTML命令可以说明文字，图形、动画、声音、表格、链接等。</p>
+<ul>
+<li>版本：HTML 5</li>
+<li>特点：<ul>
+<li>简易性：超级文本语言</li>
+<li>平台无关性：任何平台都可以应用</li>
+<li>通用性：任何浏览器和电脑都可以浏览</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>推荐开发软件：VS code</p>
+<ul>
+<li><p>下载地址： <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/</a> </p>
+</li>
+<li><p>插件配置：</p>
+<ol>
+<li><p>打开VS code，找到安装插件的侧栏并且点击</p>
+</li>
+<li><p>在侧栏搜索栏搜索插件：view in browser 和open in browser并点击install安装</p>
+</li>
+<li><p>设置中文语言环境（推荐使用英文，适应英文环境）</p>
+<ol>
+<li><p>按键语言设置快捷键：ctrl+shift+p</p>
+</li>
+<li><p>搜索：配置语言或者 Configure Language并点击</p>
+<p>如图：<img src="https://s1.ax1x.com/2020/04/08/GWSRu6.md.png" alt="image" style="zoom:80%;" /></p>
+</li>
+<li><p>选择显示语言：可以选择en为英语，zh-cn为中文，或选择安装其他语言点击install后重复上述操作在选择显示语言栏中选择你需要的语言</p>
+<p>如图：<img src="https://s1.ax1x.com/2020/04/08/GW9WkD.md.png" alt="image" style="zoom:80%;" /></p>
+</li>
+<li><p>重启VS code完成配置</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="HTML文件创建和操作"><a href="#HTML文件创建和操作" class="headerlink" title="HTML文件创建和操作"></a>HTML文件创建和操作</h2><ul>
+<li><p>创建：</p>
+<ol>
+<li><p>点击左上角文件/新建文件夹，在文件夹里新建一个文件并命名demo.html，后缀为.html回车，创建成功（注意：文件命名不要用中文，否则后期和CSS共用的时候会很麻烦）</p>
+</li>
+<li><p>在新建文件中右键点击open in default browser 可以打开一个网页，此时是空白的</p>
+</li>
+<li><p>在文件内输入 <p>hello world</p>（嗯，祖传开头,”<p></p>“是HTML的段落语法），再在刚才页面刷新一下，页面显示如下<img src="https://s1.ax1x.com/2020/04/08/GWiN0P.md.png" alt="image"></p>
+</li>
+<li><p>这就是我们最初设计的页面啦，想要更深的了解网页设计开发，还有很长的路要走</p>
+</li>
+</ol>
+</li>
+<li><p>基本格式：</p>
+<ul>
+<li><p>英文格式下，先打出感叹号  ‘’  !  ‘’  后tab键生成标准格式如下</p>
+<blockquote>
+<p>1.<!DOCTYPE html>   <!--文档的声明为html文件--></p>
+<p>2.<html lang="en">    <!--语言为英语english，注意到是头两个字母了吗--></p>
+<p>3.<head>  <!--网页的头部--></p>
+<p>4.<meta charset="UTF-8">  <!--编码声明防止乱码--></p>
+<p>5.<meta name="viewport" content="width=device-width, initial-scale=1.0"></p>
+<p>6.<title>Document</title>
+  <meta name="generator" content="hexo-theme-yilia-plus">    <!--网页标题为Document--></p>
+<p>7.<link rel="alternate" href="/atom.xml" title="WZY" type="application/atom+xml">
+</head>   <!--head一般用于设定网址，网站标志，网站显示名称--></p>
+<p>8.<body> <!--网页像人一样，有头有身体--></p>
+<p>9.<!--这里就是我们平常的编码范围，写下的语法都会转化成网页，我们代码的大部分内容都在这里--></p>
+<p>10.</body></p>
+<p>11.</html></p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="HTML标签"><a href="#HTML标签" class="headerlink" title="HTML标签"></a>HTML标签</h2><ul>
+<li><p>意义：HTML语法基本的组成，用来构成网页的基本结构</p>
+</li>
+<li><p>区别：双标签和但标签</p>
+</li>
+<li><p>基本语法：</p>
+<ul>
+<li><p>注释：&lt;!-注释内容-&gt;，注释只能放在代码末尾，不能放在代码前部，否则会导致代码错误</p>
+<blockquote>
+<p>1.<!--错误示范-->   <p>你的内容</p></p>
+<p>2.<p>正确示范</p>      <!--你的注释--></p>
+</blockquote>
+<ul>
+<li><p>注释的作用：</p>
+<ol>
+<li><p>为开发人员解释代码用途</p>
+</li>
+<li><p>提示自己代码功能方便他人和自己阅读修改</p>
+</li>
+<li><p>标注代码，使代码暂时失效用于调试</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>标题：</p>
+<ul>
+<li>title:网页名称</li>
+<li>h:页面标题，分为h1,h2,h3,h4,h5,h6,六个等级，在网页上显示大小由大到小如图：可以观察到大小不同，h1等级最高，h6等级最低，依次重要性也递减<img src="https://s1.ax1x.com/2020/04/11/GqPyrV.md.png" alt="images"></li>
+<li>段落：双标签<ul>
+<li>语法：<p>段落文字</p></li>
+<li>属性</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+
+  
+
+  
+
+</article>
+    
     <article id="post-搭建博客教程" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
