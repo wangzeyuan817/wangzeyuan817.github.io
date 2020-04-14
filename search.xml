@@ -83,19 +83,17 @@
 <ul>
 <li><p>英文格式下，先打出感叹号  ‘’  !  ‘’  后tab键生成标准格式如下</p>
 <blockquote>
-<p>1.<!DOCTYPE html>   <!--文档的声明为html文件--></p>
-<p>2.<html lang="en">    <!--语言为英语english，注意到是头两个字母了吗--></p>
-<p>3.<head>  <!--网页的头部--></p>
-<p>4.<meta charset="UTF-8">  <!--编码声明防止乱码--></p>
-<p>5.<meta name="viewport" content="width=device-width, initial-scale=1.0"></p>
-<p>6.<title>Document</title>
-  <meta name="generator" content="hexo-theme-yilia-plus">    <!--网页标题为Document--></p>
-<p>7.<link rel="alternate" href="/atom.xml" title="WZY" type="application/atom+xml">
-</head>   <!--head一般用于设定网址，网站标志，网站显示名称--></p>
-<p>8.<body> <!--网页像人一样，有头有身体--></p>
-<p>9.<!--这里就是我们平常的编码范围，写下的语法都会转化成网页，我们代码的大部分内容都在这里--></p>
-<p>10.</body></p>
-<p>11.</html></p>
+<p>1.&lt;!DOCTYPE html&gt;   &lt;!–文档的声明为html文件–&gt;</p>
+<p>2.&lt;html lang=”en”&gt;    &lt;!–语言为英语english，注意到是头两个字母了吗–&gt;</p>
+<p>3.&lt;head&gt;  &lt;!–网页的头部–&gt;</p>
+<p>4.&lt;meta charset=”UTF-8”&gt;  &lt;!–编码声明防止乱码–&gt;</p>
+<p>5.&lt;meta name=”viewport” content=”width=device-width, initial-scale=1.0”&gt;</p>
+<p>6.&lt;title&gt;Document&lt;/title&gt;    &lt;!–网页标题为Document–&gt;</p>
+<p>7.&lt;/head&gt;   &lt;!–head一般用于设定网址，网站标志，网站显示名称–&gt;</p>
+<p>8.&lt;body&gt; &lt;!–网页像人一样，有头有身体–&gt;</p>
+<p>9.&lt;!–这里就是我们平常的编码范围，写下的语法都会转化成网页，我们代码的大部分内容都在这里–&gt;</p>
+<p>10.&lt;/body&gt;</p>
+<p>11.&lt;/html&gt;</p>
 </blockquote>
 </li>
 </ul>
@@ -110,8 +108,8 @@
 <ul>
 <li><p>注释：&lt;!-注释内容-&gt;，注释只能放在代码末尾，不能放在代码前部，否则会导致代码错误</p>
 <blockquote>
-<p>1.<!--错误示范-->   <p>你的内容</p></p>
-<p>2.<p>正确示范</p>      <!--你的注释--></p>
+<p>1.&lt;!–错误示范–&gt;   &lt;p&gt;你的内容&lt;/p&gt;</p>
+<p>2.&lt;p&gt;正确示范&lt;/p&gt;      &lt;!–你的注释–&gt;</p>
 </blockquote>
 <ul>
 <li><p>注释的作用：</p>
